@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(37, 234, 224);
+    padding: 20px;
+    background-blend-mode: lighten;
+    background-repeat: initial;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 30px;
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .task-form input, .task-form textarea, .task-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-form button {
+    background-color: #007bff;
+    color: rgb(6, 0, 0);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .filters button {
+    margin: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: rgb(13, 1, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task {
+    background-color: #e7e7e7;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
